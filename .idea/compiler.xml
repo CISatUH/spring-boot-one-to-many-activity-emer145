@@ -9,5 +9,13 @@
         <module name="spring-boot-one-to-many-activity-emer145" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-one-to-many-activity-emer145" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-one-to-many-activity-emer145" options="-parameters" />
+    </option>
   </component>
 </project>
