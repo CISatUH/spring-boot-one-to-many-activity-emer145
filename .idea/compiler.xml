@@ -7,15 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-one-to-many-activity-emer145" />
+        <module name="springbootonetomanyscreencast" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-boot-one-to-many-activity-emer145" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-one-to-many-activity-emer145" options="-parameters" />
+      <module name="springbootonetomanyscreencast" options="-parameters" />
     </option>
   </component>
 </project>
